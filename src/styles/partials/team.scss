@@ -1,0 +1,106 @@
+.team {
+	padding-top: 30px;
+	background: $team-background;
+
+	h2 {
+		color: #3c4761;
+	}
+	
+	.promo{
+		margin-top: 20px;
+		margin-bottom: 30px;
+	}
+
+	h3 {
+		margin-top: 20px;
+		margin-bottom: 5px;	
+		font-size: 1.5em;	
+		font-weight: bold;
+		text-transform: uppercase; 
+		color: #27283d;
+	}
+
+	.item-details {
+		display: inline-block;
+		width: 200px;
+	}
+
+	.team-photo {
+		width: 200px;
+		height: 200px;
+		margin: auto;
+		border-radius: 50%;
+		overflow: hidden;
+	}
+
+	.team-position {
+		color: #30bae7;
+		margin-bottom: 20px;
+	}
+
+	.team-social {	
+		display: flex;	
+		flex-direction: row;
+		justify-content: center;
+		margin: 25px auto 35px;
+	}
+
+	.team-social-btn {
+		display: inline-block;
+		width: 30px;
+		height: 30px;
+		margin-right: 10px;	
+		background: url('../img/sprite.png') no-repeat; 
+		overflow: hidden;		
+	}
+
+	.team-social-btn:hover {	
+		opacity: .5;
+	}
+
+	.facebook {
+		background-position: -461px -1244px; 
+		width: 32px; 
+		height: 32px;
+	}
+
+	.linkedin {
+		background-position: -493px -1244px; 
+		width: 32px; 
+		height: 32px;
+	}
+
+	.twitter {
+		background-position: -493px -1276px; 
+		width: 32px; 
+		height: 32px;
+	}
+
+	.mail {
+		background-position: -461px -1276px; 
+		width: 32px; 
+		height: 32px;
+	}
+}
+ 
+@media only screen and (min-width: 768px) {
+
+ .team {
+ 		padding-top: 105px;
+
+ 	.promo{
+		margin-top: 20px;
+		margin-bottom: 60px;
+	}
+
+	h3 {
+		margin-top: 40px;		
+	}
+
+	.team-social {
+		margin: 25px auto 115px;
+	}
+
+ }
+ 
+}

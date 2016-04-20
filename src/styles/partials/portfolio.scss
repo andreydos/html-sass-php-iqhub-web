@@ -1,0 +1,170 @@
+.portfolio {
+	padding-top: 35px;
+	background: $portfolio-background;
+	
+	h2 {
+		color: #3c4761;
+	}
+	
+	.promo{
+		margin-top: 10px;
+		margin-bottom: 15px;
+		padding: 0 5%;
+	}
+
+	.portfolio-selector {
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		margin-bottom: 45px;
+
+		.btn-selector {
+			width: 85px;
+			height: 40px;
+			margin-left: 10px;
+			padding: 10px 0;
+			font-size: 1.125em;
+			text-align: center;
+			color: #393939;
+			background: #ebc985;
+			border-radius: 5px;
+		}
+		.btn-selector:hover {
+			background: white;
+		}
+		.btn-selector.active {
+			background: white;
+		} 
+	}
+	
+	.portfolio-item {		
+		// width: 100%;
+		// margin: auto;
+		margin-left:50px;
+		margin-bottom: 45px;		
+
+		h3 {
+			margin-top: 25px;
+			font-size: 1.125em;
+			text-transform: uppercase;
+		}
+
+	}
+
+	.portfolio-photo {
+		background: url('../img/sprite.png') no-repeat; 
+		overflow: hidden;
+	}
+
+	.isometric {		
+		background-position: -0px -0px;	
+		background-size: 100%;	 
+		width: 378px; 
+		height: 217px;
+		margin: auto;
+	}
+
+	.time {
+		background-position: -0px -217px; 
+		background-size: 100%;	 
+		width: 378px; 
+		height: 217px;
+		margin: auto;
+	}
+
+	.media {
+		background-position: -0px -435px; 
+		background-size: 100%;	 
+		width: 378px; 
+		height: 217px;
+		margin: auto;
+	}
+
+	.ui {
+		background-position: -0px -653px; 
+		background-size: 100%;	 
+		width: 378px; 
+		height: 217px;
+		margin: auto;
+	}
+
+	.btn-portfolio {
+			width: 50%;
+			height: 65px;
+			margin: auto;
+			padding-top: 20px;
+			background-color: #17c2a4;
+			border-radius: 5px;
+			border-bottom: 5px solid rgba(20,165,140,1);
+		}	
+		.btn-portfolio:hover {			
+			border-bottom: 5px solid rgba(20,165,140,.5);
+		}	
+}
+
+ 
+@media only screen and (min-width: 768px) {
+ 
+.portfolio {
+	padding-top: 105px;
+	
+
+	.promo{
+		margin-top: 20px;
+		margin-bottom: 25px;
+		padding: 0 25%;
+	}
+
+	.portfolio-item {
+		// margin-left:100px;
+	}
+
+	.portfolio-photo {
+		background: url('../img/sprite.png') no-repeat; 
+		overflow: hidden;
+	}
+
+	.isometric {		
+		background-position: -0px -0px;		 
+		width: 541px; 
+		height: 311px;
+	}
+
+	.time {
+		background-position: -0px -311px; 
+		width: 541px; 
+		height: 311px;
+	}
+
+	.media {
+		background-position: -0px -622px; 
+		width: 541px; 
+		height: 311px; 
+	}
+
+	.ui {
+		background-position: -0px -933px; 
+		width: 541px; 
+		height: 311px;
+	}
+
+	.btn-portfolio {
+			width: 26%;
+			height: 65px;
+			margin: 20px auto 100px;
+			padding: 20px;
+			background-color: #17c2a4;
+			border-radius: 5px;
+		}	
+
+}
+
+}
+
+@media only screen and (min-width: 1382px) {
+.portfolio .portfolio-item {
+		// margin-left:0px;
+	}
+}
+ 
+

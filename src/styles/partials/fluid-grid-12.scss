@@ -1,0 +1,40 @@
+
+.container {
+	width: 100%;	
+	margin: 0 auto;
+}
+
+.cols {
+	float: left;
+	margin: 0 0 1em;
+	padding: 0 1em;
+	text-align: center;
+}
+
+.cols.col-1,
+.cols.col-2,
+.cols.col-3,
+.cols.col-4 {width: 100%;}
+
+.container:before,
+.container:after,
+.row:before,
+.row:after,
+.clearfix:before,
+.clearfix:after {
+    content:"";
+    display:block;
+    clear:both;
+}
+
+@media only screen and (min-width: 768px) { 	
+	.cols.col-1 {width: 50%;}
+}
+ 
+@media only screen and (min-width: 992px) {
+ 	.cols.col-1 {width: 25%;}
+	.cols.col-2 {width: 50%;}
+	.cols.col-3 {width: 75%;}
+	.cols.col-4 {width: 100%;}
+}
+ 

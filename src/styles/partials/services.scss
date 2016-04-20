@@ -1,0 +1,71 @@
+.services {
+	background: $services-background;
+	color: white;
+
+	h2 {
+		margin-top: 25px;
+		margin-bottom: 10px;
+	}
+	
+	p.promo {		
+		padding: 0 30px;
+		margin-bottom: 60px;
+	}
+
+	a{
+		text-transform: none;
+	}
+
+	h3 {
+		font-size:1.5em;
+		font-weight: bold;
+		text-transform: uppercase;
+		margin-bottom: 20px;
+	}
+
+	h3 > a {
+		text-transform: uppercase;
+	}
+
+	.sprite {
+		margin-bottom: 50px;
+	}
+
+	// sprites
+	.gears{ background-position: -0px -1244px; width: 159px; height: 126px; }
+	.flag { background-position: -159px -1244px; width: 119px; height: 124px; }
+	.rocket { background-position: -278px -1244px; width: 94px; height: 133px; }
+	.crayon { background-position: -372px -1244px; width: 89px; height: 130px; }
+
+	.service-item p {
+		margin-bottom: 20px;
+	}
+ }
+ 
+@media only screen and (min-width: 768px) {
+
+.services {
+ h2 {
+		margin-top: 105px;
+		margin-bottom: 20px;
+	}
+	
+	p.promo {		
+		padding: 0 60px;
+	}
+
+	.service-item p {
+		font-weight: lighter;
+		margin-bottom: 100px;
+	}
+ }
+}
+ 
+@media only screen and (min-width: 1382px) {
+	.services {		
+		p.promo {		
+			padding: 0 260px;
+			margin-bottom: 60px;
+		}		
+	}
+}

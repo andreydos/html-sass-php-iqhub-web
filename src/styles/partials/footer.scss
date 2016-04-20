@@ -1,0 +1,40 @@
+.footer {
+	background: $footer-background;
+
+	h2 {
+		display: none;
+	}
+
+	.footer-menu {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: wrap;
+		justify-content: space-around; 
+		padding: 0 5%;
+	}
+
+	a {
+		display: block;
+		padding: 10px 0;
+		margin-left: 5px;
+		font-size: 1em;
+		text-transform: none;
+
+		&:hover {
+		color: #30bae7;
+		}
+		.active {
+		color: #30bae7;
+		}
+	}
+}
+
+@media only screen and (min-width: 768px) { 
+ .footer {
+	 	a {
+			padding: 4.5% 0;
+			margin-left: 15px;
+			font-size: 1.5em;
+		}
+ } 
+}

@@ -1,0 +1,141 @@
+
+.header {
+	background: $header-background;
+
+	.menu {
+		li {
+			margin-bottom: 15px;
+		}
+
+		a {				
+			padding: 5px 15px;				
+			border-radius: 2px;		
+
+			&:hover {
+				background: #643a79;
+			}
+		}
+
+		a.active {
+			background: #643a79;  
+		}		
+	}
+	h1 {
+		font-size: 1.5em;
+		line-height: 1.14;
+		font-weight: bold;
+		color: white;
+		}
+
+	.btn-header {
+		width: 40%;
+		height: 70px;
+		margin: 0 auto;
+		padding: 15px;
+		border-radius: 5px;
+		border-bottom: 5px solid rgba(200,106,64,1);
+		&:hover {
+			border-bottom: 5px solid rgba(200,106,64,.5);
+		}	
+	}
+}
+
+ 
+@media only screen and (min-width: 768px) {
+ 
+.header {
+
+		h1 {
+		font-size: 2em;
+		}
+		
+		.header-top {
+			padding-top: 25px;
+			padding-bottom: 30px;
+		}
+
+		.logo {
+			display: flex;
+			justify-content: center;			
+		}
+		.menu ul {
+			display: flex;
+			flex-direction: row; 
+			justify-content: center;
+			
+			li {
+				margin-right: 15px;
+			}
+
+			a {
+				display: inline-block;
+			}
+
+			
+		}
+		
+		.header-title {
+			padding-bottom: 15px;
+			color:white;	
+		}
+		.header-title .cols {
+				padding: 0 100px;
+		}
+
+		.header-btn {
+			padding-bottom: 50px;
+		}
+
+		.btn-header {
+			width: 26%;
+			height: 65px;			
+			padding: 20px;
+		}		
+	}
+
+}
+
+ 
+@media only screen and (min-width: 992px) {
+.header {
+	 h1 {
+	 	padding: 0 50px;
+		font-size: 2.625em;
+		line-height: 1.14;		
+		}
+
+	.header-top {
+			padding-top: 55px;
+			padding-bottom: 80px;
+		}
+		.menu ul {
+			display: flex;
+			flex-direction: row; 
+			justify-content: flex-end;
+		}
+
+		.header-btn {
+			padding-bottom: 135px;
+		}
+  }
+}
+
+@media only screen and (min-width: 1382px) {
+.header {
+	.logo {
+			display: flex;
+			justify-content: flex-start;	
+			padding-left: 75px;		
+		}
+	}
+}
+
+	@media only screen and (min-width : 1824px) {
+.header{
+	.header-top {
+			padding-top: 55px;
+			padding-bottom: 90px;
+		}
+ }
+}
+

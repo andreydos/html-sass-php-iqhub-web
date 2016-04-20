@@ -1,0 +1,70 @@
+.about {
+	padding-top: 35px;
+	padding-bottom: 30px;
+	background: $about-background;
+	color: white;
+
+	.promo{
+		margin-top: 5px;
+		margin-bottom: 15px;
+		padding: 0 25%;
+	}
+
+	.comment-item {
+		position: relative;
+		width: 340px;
+		margin-left: 150px;
+		text-align: left;
+
+		q {			
+			font-style: italic;
+			font-size: 1.3125em;
+			line-height: 1.45em;			
+		}
+
+		p:first-of-type {
+			margin-top: 26px;
+			margin-bottom: 5px;
+			font-size: 1.5em;
+			line-height: .8em;
+			text-transform: uppercase;
+		}
+
+		p:last-child {
+			color: #ffdd99;
+		}
+
+		.image img {
+		  position: absolute;
+		  top: 0;
+		  left: -130px;
+		  width: 95px;
+		  height: 95px;
+		  border-radius: 50%;
+		}
+	}	
+}
+ 
+@media only screen and (min-width: 768px) {
+	.about {
+		padding-top: 105px;
+		padding-bottom: 110px;	
+
+		.promo{
+			margin-top: 15px;
+			margin-bottom: 55px;
+		}
+	}
+ 
+}
+ 
+@media only screen and (min-width: 992px) {
+	.about {
+			.first-row {
+				margin-bottom: 130px;
+				border: 2 solid blue;
+			}	
+	}  
+}
+
+

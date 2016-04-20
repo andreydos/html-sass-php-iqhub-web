@@ -1,0 +1,206 @@
+.skill {
+	padding-top: 35px;
+	background: $skill-background;
+
+	h2 {
+		color: #3c4761;
+	}
+	
+	.promo{
+		margin-top: 10px;
+		margin-bottom: 30px;
+		padding: 0 5%;
+	}
+
+	.skill-row {
+		margin-bottom: 35px;
+	}
+
+	// DIAGRAM
+
+	.diagram {
+		display: inline-block;
+		margin: auto;
+		padding-top: 10px;
+		padding-left: 25px;
+	}	
+
+	h3 {
+		font-size: 1.5em;	
+		font-weight: bold;
+		text-transform: uppercase; 
+		color: #3c4761;
+	}
+
+	.c100.p70 .slice,
+	.c100.p75 .slice,
+	.c100.p85 .slice,
+	.c100.p90 .slice {
+	  clip: rect(auto, auto, auto, auto);
+	}
+
+	.c100 .bar,
+	.c100.p70 .fill,
+	.c100.p75 .fill,
+	.c100.p85 .fill,
+	.c100.p90 .fill {
+	  position: absolute;
+	  border: 0.08em solid #307bbb;
+	  width: 0.84em;
+	  height: 0.84em;
+	  clip: rect(0em, 0.5em, 1em, 0em);
+	  border-radius: 50%;
+	  transform: rotate(0deg);
+	}
+
+	.c100.p70 .bar:after,
+	.c100.p70 .fill,
+	.c100.p75 .bar:after,
+	.c100.p75 .fill,
+	.c100.p85 .bar:after,
+	.c100.p85 .fill,
+	.c100.p90 .bar:after,
+	.c100.p90 .fill {
+	  transform: rotate(180deg);
+	}
+
+	.c100 {
+	  position: relative;
+	  font-size: 120px;
+	  width: 1em;
+	  height: 1em;
+	  border-radius: 50%;
+	  float: left;
+	  margin: 0 0.1em 0.1em 0;
+	  background-color: #dfe8ed;
+	}
+
+	.c100 *,
+	.c100 *:before,
+	.c100 *:after {
+	  box-sizing: content-box;
+	}
+
+// bigger size of diagram
+	.c100.big {
+  font-size: 160px; 
+
+	}
+
+	.c100 > span {
+	  position: absolute;
+	  width: 100%;
+	  z-index: 1;
+	  left: 0;
+	  top: 0;
+	  width: 3.6em;
+	  line-height: 3.1em;
+	  font-size: 0.3em;
+	  color: #3c4761;
+	  display: block;
+	  text-align: center;
+	  white-space: nowrap;
+	  transition-property: all;
+	  transition-duration: 0.2s;
+	  transition-timing-function: ease-out;
+	}
+
+	.c100:after {
+	  position: absolute;
+	  top: 0.08em;
+	  left: 0.08em;
+	  display: block;
+	  content: " ";
+	  border-radius: 50%;
+	  background-color: white;
+	  width: 0.84em;
+	  height: 0.84em;
+	  transition-property: all;
+	  transition-duration: 0.2s;
+	  transition-timing-function: ease-in;
+	}
+
+	.c100 .slice {
+	  position: absolute;
+	  width: 1em;
+	  height: 1em;
+	  clip: rect(0em, 1em, 1em, 0.5em);
+	}
+
+	.c100.p70 .bar {
+	  transform: rotate(252deg);
+	}
+
+	.c100.p75 .bar {
+	  transform: rotate(270deg);
+	}
+
+	.c100.p85 .bar {
+	  transform: rotate(306deg);
+	}
+
+	.c100.p90 .bar {
+	  transform: rotate(324deg);
+	}
+
+	.c100:hover {
+	  cursor: default;
+	}
+
+	.c100.green .bar,
+	.c100.green .fill {
+	  border-color: #15c7a8 !important;
+	}
+
+	.c100.green:hover > span {
+	  color: #15c7a8;
+	}
+
+	.c100.orange .bar,
+	.c100.orange .fill {
+	  border-color: #eb7d4b !important;
+	}
+
+	.c100.orange:hover > span {
+	  color: #eb7d4b;
+	}
+
+	.c100.purple .bar,
+	.c100.purple .fill {
+	  border-color: #d74680 !important;
+	}
+
+	.c100.purple:hover > span {
+	  color: #d74680;
+	}
+
+	.c100.blue .bar,
+	.c100.blue .fill {
+	  border-color: #30bae7 !important;
+	}
+
+	.c100.blue:hover > span {
+	  color: #30bae7;
+	}
+
+}
+
+
+@media only screen and (min-width: 768px) {
+ .skill {
+ 	padding-top: 105px;
+
+ 	.promo{
+		margin-top: 15px;
+		margin-bottom: 60px;
+		padding: 0 25%;
+	}
+
+	.skill-row {
+		margin-bottom: 105px;
+	}
+ }
+ 
+}
+ 
+
