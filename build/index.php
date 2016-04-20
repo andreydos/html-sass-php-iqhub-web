@@ -14,8 +14,7 @@
 	<link rel="stylesheet" type="text/css" href="css/main.min.css">
 </head>
 <body>
-	<div class="container">
-		
+	<div class="container">		
 		<header class="header" id="home">
 			<div class="row header-top">
 				<div class="logo cols col-2"><a href="#"><img src="img/iq-hub-logo.png" alt="logo"></a></div>
@@ -347,52 +346,8 @@
 		    </div>
 		  </div>
 		
-		  <div class="row first-row">
-		    <div class="cols col-2">
-		      <div class="comment-item">
-		        <div class="image">
-		         <img src="img/Chanel-Iman.jpg" alt="Chanel Iman">
-		       </div>
-		       <q>“Nullam dapibus blandit orci, viverra gravida dui lobortis eget. Maecenas fringilla urna eu nisl scelerisque.”</q>
-		       <p>Chanel Iman</p>
-		       <p>CEO of Pinterest</p>
-		     </div> <!-- /comment-item -->
-		    </div>
-		    <div class="cols col-2">
-		      <div class="comment-item">
-		        <div class="image">
-		          <img src="img/ADRIANA-LIMA.jpeg" alt="ADRIANA LIMA">
-		        </div>
-		        <q>“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”</q>
-		        <p>ADRIANA LIMA</p>
-		        <p>Founder of Instagram</p>
-		     </div> <!-- /comment-item -->
-		    </div>
-		  </div>
-		       
-		  <div class="row second-row">
-		    <div class="cols col-2">   
-		     <div class="comment-item">
-		      <div class="image">
-		       <img src="img/anne-hathaway.jpg" alt="ANNE HATHAWAY">
-		      </div>
-		       <q>“Vivamus luctus urna sed urna ultricies ac tempor dui sagittis. In condimentum facilisis porta.”</q>
-		       <p>ANNE HATHAWAY</p>
-		       <p>Lead Designer at Behance</p>
-		      </div> <!-- /comment-item -->
-		    </div>
-		    <div class="cols col-2">
-		       <div class="comment-item">
-		        <div class="image">
-		         <img src="img/emma-stone.jpg" alt="EMMA STONE">
-		        </div>
-		        <q>“Phasellus non purus vel arcu tempor commodo. Fusce semper, purus vel luctus molestie, risus sem cursus neque.”</q>
-		        <p>EMMA STONE</p>
-		        <p>Co-Founder of Shazam</p>
-		      </div> <!-- /comment-item -->
-		    </div>
-		  </div>
-		
+			<?php include("comment.php"); ?>
+		  		
 		</section>
 		<section class="contact" id="contact">
 			<div class="row">
@@ -408,7 +363,7 @@
 		    </div>
 		   </div>
 		
-		    <form action="http://example.org/" method="post" accept-charset="utf-8">
+		    <form action="send_email.php" method="post" accept-charset="utf-8">
 			    <div class="row">
 				    <div class="cols col-2">
 		    	    		<input type="text" id="name" name="name" placeholder="Your Name *" required>
