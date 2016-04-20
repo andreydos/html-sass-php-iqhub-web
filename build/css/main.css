@@ -920,16 +920,6 @@ h2 {
     width: 26%;
     margin-bottom: 100px;
   }
-  .contact .textarea::before {
-    left: 28%;
-    top: 15%;
-  }
-  .contact .placeholder-style > label {
-    left: 15%;
-  }
-  .contact .placeholder-style:nth-child(2) > label {
-    left: 15%;
-  }
 }
 @media only screen and (min-width: 992px) {
   .contact .col-2:first-child {
@@ -943,32 +933,6 @@ h2 {
     -webkit-justify-content: flex-start;
         -ms-flex-pack: start;
             justify-content: flex-start;
-  }
-  .contact .textarea::before {
-    left: 26%;
-    top: 15%;
-  }
-  .contact .placeholder-style > label {
-    left: 31%;
-    top: 35%;
-  }
-  .contact .placeholder-style:nth-child(2) > label {
-    left: 7.5%;
-  }
-}
-@media only screen and (min-width: 1302px) {
-  .textarea::before {
-    left: 23%;
-    top: 15%;
-  }
-
-  .placeholder-style > label {
-    left: 31%;
-    top: 35%;
-  }
-
-  .placeholder-style:nth-child(2) > label {
-    left: 7.5%;
   }
 }
 .footer {

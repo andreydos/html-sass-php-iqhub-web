@@ -94,20 +94,7 @@
 	.btn-contact{
 		width: 26%;		
 		margin-bottom: 100px;		
-	}
-
-		.textarea::before {  
-	  left: 28%;
-	  top: 15%;
-	}
-
-		.placeholder-style > label {
-    left: 15%;
-	}
-
-	.placeholder-style:nth-child(2) > label {
-    left: 15%;   
-	}
+	}	
 
  }
 }
@@ -120,37 +107,8 @@
 
 	.col-2:last-child {
 			justify-content: flex-start;		
-	}
-
-		.textarea::before {  
-	  left: 26%;
-	  top: 15%;	 
-	}
-
-	.placeholder-style > label {
-    left: 31%;
-    top: 35%; 
-	}
-
-	.placeholder-style:nth-child(2) > label {
-    left: 7.5%;   
-	}
-
+	}		
  } 
 }
 
-@media only screen and (min-width: 1302px) {
-	.textarea::before {  
-	  left: 23%;
-	  top: 15%;	 
-	}
 
-	.placeholder-style > label {
-    left: 31%;
-    top: 35%;
-	}
-
-	.placeholder-style:nth-child(2) > label {
-    left: 7.5%;   
-	}
-}
